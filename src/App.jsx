@@ -1,9 +1,12 @@
 import React from "react";
+import Focus from "./components/Focus";
 import "./App.css";
 
 function App() {
   return (
-    <div className="">hello World!</div>
+    <div className="App">
+      <Focus />
+    </div>
   );
 }
 
